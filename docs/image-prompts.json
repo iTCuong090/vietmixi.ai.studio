@@ -1,0 +1,36 @@
+{
+  "method": "Built-in image_gen tool",
+  "note": "Fictional adult models; prepared illustrative results, not live generation or cultural reconstruction. Each asset corresponds to a curated visual preset.",
+  "assets": [
+    {
+      "id": "ao-dai",
+      "prompt": "Use case: photorealistic-natural. Asset type: full-body Vietnamese fashion editorial photograph for Việt Mixi app, one fictional Vietnamese adult age 23-26, warm medium skin tone. Contemporary interpretation, not a historical reconstruction. Warm light ivory seamless photography studio wall and floor, soft daylight, exquisite tactile fabric and natural skin, full head to shoes inside frame, centered vertical 2:3 portrait, graceful relaxed standing pose, luxury editorial photography, no text, no logos, no watermark, no other people. Young woman with long dark hair, wearing a sage green modern Vietnamese áo dài with high standing collar, fitted upper torso, long split side panels to ankle, long slim sleeves; ivory wide trousers underneath. She holds a single pink lotus in one hand, plain ivory closed flat shoes. Subtle ivory botanical embroidery along upper chest and one lower panel. No hat, no bag.",
+      "path": "public/images/looks/ao-dai.png"
+    },
+    {
+      "id": "ngu-than",
+      "prompt": "Use case: photorealistic-natural. Asset type: full-body Vietnamese fashion editorial photograph for Việt Mixi app, one fictional Vietnamese adult age 23-26, warm medium skin tone. Contemporary interpretation, not a historical reconstruction. Warm light ivory seamless photography studio wall and floor, soft daylight, exquisite tactile fabric and natural skin, full head to shoes inside frame, centered vertical 2:3 portrait, graceful relaxed standing pose, luxury editorial photography, no text, no logos, no watermark, no other people. Young man with short dark hair, wearing an indigo blue Vietnamese ngũ thân tunic: upright round collar, traditional right-sided five-button fastening, loose straight long panels below knee, long fitted sleeves; ivory wide trousers. Matching indigo khăn đóng cylindrical wrapped headpiece, holding a pale bamboo folding fan in one hand, dark plain flat shoes. Restrained embroidery, dignified fashion pose.",
+      "path": "public/images/looks/ngu-than.png"
+    },
+    {
+      "id": "tu-than",
+      "prompt": "Use case: photorealistic-natural. Asset type: full-body Vietnamese fashion editorial photograph for Việt Mixi app, one fictional Vietnamese adult age 23-26, warm medium skin tone. Contemporary interpretation, not a historical reconstruction. Warm light ivory seamless photography studio wall and floor, soft daylight, exquisite tactile fabric and natural skin, full head to shoes inside frame, centered vertical 2:3 portrait, graceful relaxed standing pose, luxury editorial photography, no text, no logos, no watermark, no other people. Young woman with dark hair, wearing Vietnamese Bắc Bộ tứ thân ensemble: rust brown four-panel outer robe, long open front tails tied loosely at waist, ochre yellow inner yếm bodice, ivory pale sash, floor-length black flowing skirt. Broad flat circular nón quai thao with long dark silk straps worn on head; holding pale folding fan. Dark closed flat shoes. Contemporary editorial interpretation, clear layered robe silhouette.",
+      "path": "public/images/looks/tu-than.png"
+    },
+    {
+      "id": "nhat-binh",
+      "prompt": "Use case: photorealistic-natural. Asset type: full-body Vietnamese fashion editorial photograph for Việt Mixi app, one fictional Vietnamese adult age 23-26, warm medium skin tone. Contemporary interpretation, not a historical reconstruction. Warm light ivory seamless photography studio wall and floor, soft daylight, exquisite tactile fabric and natural skin, full head to shoes inside frame, centered vertical 2:3 portrait, graceful relaxed standing pose, luxury editorial photography, no text, no logos, no watermark, no other people. Young woman wearing a contemporary interpretation of a Vietnamese Nhật Bình robe: muted dusty rose flowing robe, VERY wide sleeves, rectangular open collar framed in broad golden ochre embroidered trim, circular floral medallions, horizontal colored bands at sleeve cuffs; ivory wide trousers. Matching dusty rose cylindrical khăn đóng headpiece, dark plain flat shoes, hands empty. Retain characteristic rectangular collar, not a Chinese or Korean robe.",
+      "path": "public/images/looks/nhat-binh.png"
+    },
+    {
+      "id": "ba-ba",
+      "prompt": "Use case: photorealistic-natural. Asset type: full-body Vietnamese fashion editorial photograph for Việt Mixi app, one fictional Vietnamese adult age 23-26, warm medium skin tone. Contemporary interpretation, not a historical reconstruction. Warm light ivory seamless photography studio wall and floor, soft daylight, exquisite tactile fabric and natural skin, full head to shoes inside frame, centered vertical 2:3 portrait, graceful relaxed standing pose, luxury editorial photography, no text, no logos, no watermark, no other people. Young woman with straight dark hair wearing deep plum Vietnamese áo bà ba: round neckline, long slim sleeves, simple center-front buttons, two front patch pockets, hip-length fitted blouse with short side vents. Loose black trousers, dark simple sandals, natural beige canvas tote bag held in one hand. No hat, no embroidery, quiet contemporary fashion.",
+      "path": "public/images/looks/ba-ba.png"
+    },
+    {
+      "id": "ao-cham",
+      "prompt": "Use case: photorealistic-natural. Asset type: full-body Vietnamese fashion editorial photograph for Việt Mixi app, one fictional Vietnamese adult age 23-26, warm medium skin tone. Contemporary interpretation, not a historical reconstruction. Warm light ivory seamless photography studio wall and floor, soft daylight, exquisite tactile fabric and natural skin, full head to shoes inside frame, centered vertical 2:3 portrait, graceful relaxed standing pose, luxury editorial photography, no text, no logos, no watermark, no other people. Young woman wearing an indigo blue Vietnamese Áo Chàm ensemble: diagonal right-lapel closure with cyan trim piping, matching indigo sash belt at waist, silver neck ring kiềng bạc, silver waist chatelaine xà tích, indigo khăn vấn folded headwrap, dark plain flat shoes. Plain dark loose trousers.",
+      "path": "public/images/looks/ao-cham.png"
+    }
+  ]
+}

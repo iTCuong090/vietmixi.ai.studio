@@ -1,0 +1,39 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    match /users/{userId} {
+      allow read: if true;
+      allow create, update: if request.resource.data.uid == userId;
+      allow delete: if false;
+    }
+
+    match /looks/{lookId} {
+      allow get, list: if true;
+      allow create: if request.resource.data.ownerId is string;
+      allow update: if request.resource.data.ownerId is string;
+      allow delete: if true;
+    }
+
+    match /lookbooks/{lookbookId} {
+      allow get, list: if true;
+      allow create: if request.resource.data.ownerId is string;
+      allow update: if request.resource.data.ownerId is string;
+      allow delete: if true;
+    }
+
+    match /shares/{token} {
+      allow get, list: if true;
+      allow create: if request.resource.data.ownerId is string;
+      allow update: if request.resource.data.ownerId is string;
+      allow delete: if true;
+    }
+  }
+}

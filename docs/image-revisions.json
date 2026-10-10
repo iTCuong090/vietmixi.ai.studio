@@ -1,0 +1,11 @@
+{
+  "method": "Built-in image_gen tool",
+  "revisions": [
+    {
+      "source": "public/images/looks/nhat-binh.png",
+      "selected": "public/images/looks/nhat-binh-v2.png",
+      "prompt": "Use case: precise-object-edit. This input image is the EDIT TARGET: a Vietnamese Nhật Bình inspired editorial fashion photograph. Change ONLY the robe collar construction so its characteristic rectangular neckline is unmistakable: two parallel straight vertical broad golden ochre embroidered collar bands joined by a straight horizontal golden ochre band across the upper chest, making a clearly squared U / rectangular frame. The rectangular framed opening reveals the ivory undergarment; NOT a V collar, NOT diagonal lapels, NOT a cross-over wrap. Keep the same woman, face, hair, dusty rose khăn đóng, body, pose, sleeves, garment color, floral medallions, ivory trousers, shoes, background, framing and lighting unchanged. Photorealistic sewn textile detail. No text/no watermark. Contemporary illustration, not historical reconstruction.",
+      "reason": "Make the rectangular collar characteristic clearly visible, preserving the same fictional model and outfit."
+    }
+  ]
+}

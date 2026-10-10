@@ -1,0 +1,84 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "User profile information",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "name": { "type": "string", "maxLength": 100 },
+        "email": { "type": "string", "format": "email" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["uid", "name", "email"]
+    },
+    "Look": {
+      "title": "Look",
+      "description": "Saved Vietnamese outfit configuration",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "ownerId": { "type": "string" },
+        "name": { "type": "string", "maxLength": 120 },
+        "config": { "type": "object" },
+        "revision": { "type": "number" },
+        "shareToken": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "ownerId", "name", "config", "revision", "createdAt", "updatedAt"]
+    },
+    "Lookbook": {
+      "title": "Lookbook",
+      "description": "Curated collection of looks",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "ownerId": { "type": "string" },
+        "name": { "type": "string", "maxLength": 120 },
+        "description": { "type": "string", "maxLength": 500 },
+        "coverLookId": { "type": "string" },
+        "lookIds": { "type": "array" },
+        "shareToken": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "ownerId", "name", "description", "createdAt", "updatedAt"]
+    },
+    "Share": {
+      "title": "Share",
+      "description": "Public share token pointer",
+      "type": "object",
+      "properties": {
+        "token": { "type": "string", "maxLength": 64 },
+        "ownerId": { "type": "string" },
+        "authorName": { "type": "string", "maxLength": 100 },
+        "kind": { "type": "string", "enum": ["look", "lookbook"] },
+        "targetId": { "type": "string" },
+        "name": { "type": "string", "maxLength": 120 },
+        "description": { "type": "string", "maxLength": 500 },
+        "payload": { "type": "object" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["token", "ownerId", "kind", "targetId", "name", "payload", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "UserProfile",
+      "description": "User profiles"
+    },
+    "/looks/{lookId}": {
+      "schema": "Look",
+      "description": "All saved looks created by users"
+    },
+    "/lookbooks/{lookbookId}": {
+      "schema": "Lookbook",
+      "description": "All curated lookbooks created by users"
+    },
+    "/shares/{token}": {
+      "schema": "Share",
+      "description": "Public shares accessible by anyone with the link token"
+    }
+  }
+}
